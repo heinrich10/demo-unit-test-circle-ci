@@ -4,3 +4,5 @@ machine:
 general:
   artifacts:
       - "coverage"
+post:
+    - bash <(curl -s https://codecov.io/bash)
