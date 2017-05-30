@@ -1,0 +1,4 @@
+test/**/*.js
+--reporter spec
+--reporter-options output=mocha.json
+--check-leaks
