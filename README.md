@@ -5,13 +5,13 @@
 This is a demo of using Circle-CI for continuous integration.
 
 ## How to run locally:
-run ```npm test```
+run ``` npm test ```
 ignore the failure in codecov token
 
 ## Essential components
 - [mocha](https://mochajs.org/) -
 test runner
-- [istanbul](https://github.com/gotwarlost/istanbul) -
+- [nyc](https://github.com/istanbuljs/nyc) -
 code coverage report
 - [codecov](https://codecov.io) -
 code coverage badge
@@ -20,8 +20,8 @@ continuous integration
 
 ## Note
 - circle.yml -
-this is the file used for configuring circle-ci. configured it to use node 7.10.0 and generate code coverage artifact, then send it to codecov.io
+this is the file used for configuring circle-ci. configured it to use node 8.11.4 and generate code coverage artifact, then send it to codecov.io
 - npm test command -
-this invokes istanbul, mocha, and codecov library. configurations are in their corresponding yml files
+this invokes nyc, mocha, and codecov library. configurations are in their corresponding yml files
 - coverage report -
-open ./coverage/lcov-report/index.html file after running the test to view code coverage
+open `./coverage/lcov-report/index.html` file after running the test to view code coverage
