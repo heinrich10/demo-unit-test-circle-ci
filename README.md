@@ -1,7 +1,7 @@
 # Demo unit test using Circle-CI
 
 [![CircleCI](https://circleci.com/gh/heinrich10/demo-unit-test-circle-ci.svg?style=svg)](https://circleci.com/gh/heinrich10/demo-unit-test-circle-ci)  [![codecov](https://codecov.io/gh/heinrich10/demo-unit-test-circle-ci/branch/master/graph/badge.svg)](https://codecov.io/gh/heinrich10/demo-unit-test-circle-ci)
-[![Dependency Status](https://david-dm.org/heinrich10/demo-unit-test-circle-ci.svg)](https://david-dm.org/heinrich10/demo-unit-test-circle-ci)
+[![dependencies Status](https://david-dm.org/heinrich10/demo-unit-test-circle-ci/status.svg)](https://david-dm.org/heinrich10/demo-unit-test-circle-ci)
 [![Known Vulnerabilities](https://snyk.io/test/github/heinrich10/demo-unit-test-circle-ci/badge.svg?targetFile=package.json)](https://snyk.io/test/github/heinrich10/demo-unit-test-circle-ci?targetFile=package.json)
 
 This is a demo of using Circle-CI for continuous integration.
