@@ -13,7 +13,7 @@ ignore the failure in codecov token
 ## Essential components
 - [mocha](https://mochajs.org/) -
 test runner
-- [nyc](https://github.com/istanbuljs/nyc) -
+- [nyc](https://github.com/istanbuljs/nyc) --
 code coverage report
 - [codecov](https://codecov.io) -
 code coverage badge
