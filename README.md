@@ -4,6 +4,8 @@
 [![dependencies Status](https://david-dm.org/heinrich10/demo-unit-test-circle-ci/status.svg)](https://david-dm.org/heinrich10/demo-unit-test-circle-ci)
 [![Known Vulnerabilities](https://snyk.io/test/github/heinrich10/demo-unit-test-circle-ci/badge.svg?targetFile=package.json)](https://snyk.io/test/github/heinrich10/demo-unit-test-circle-ci?targetFile=package.json)
 
+>archiving this as it is quite old, and more people are using `github-actions`
+
 This is a demo of using Circle-CI for continuous integration.
 
 ## How to run locally:
